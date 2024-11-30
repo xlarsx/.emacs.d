@@ -1,0 +1,22 @@
+#+TITILE: README
+
+Personal GNU/Emacs configuration with the philosophy:
+
+- Cross-platform as much as possible.
+- Using standard key bindings if available.
+- Standard packages or non-intrusive packages preferible.
+- Using default configuration enabled, with minor exceptions.
+- For non repetitive tasks, using =M-x command= is acceptable.
+
+Using as inspiration content/work from:
+
+- [[https://protesilaos.com][Protesilaos Stavrou]]
+- [[https://cestlaz.github.io][Mike Zamansky]]
+- [[https://distro.tube][Derek Taylor]]
+- [[https://systemcrafters.net][David Wilson]]
+- [[https://henrik.io][Henrik Lissner]]
+
+Notes:
+
+- Tested using GNU/Emacs 29
+- Frequent [[https://github.com/xlarsx/.emacs.d/wiki/GNU-Emacs-Common-Key-Bindings][GNU/Emacs Key Bindings]] (live document with the keybindings that I use the most, useful to use with this configuration that promote default configurations)
