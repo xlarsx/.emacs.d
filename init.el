@@ -135,6 +135,10 @@
   (completion-category-defaults nil)
   (completion-category-overrides '((file (styles . (partial-completion))))))
 
+(use-package ibuffer
+  :ensure nil
+  :bind (("C-x C-b" . ibuffer)))
+
 (use-package consult
   :ensure t
   :bind (("M-s M-b" . consult-buffer)
