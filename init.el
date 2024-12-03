@@ -185,8 +185,9 @@
 (use-package transient
   :ensure t)
 
-(use-package vterm
-  :ensure t)
+(unless  (eq system-type 'windows-nt)
+  (use-package vterm
+    :ensure t))
 
 (use-package jest-test-mode
   :ensure t
