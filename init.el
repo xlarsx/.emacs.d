@@ -212,7 +212,6 @@
 
 (global-hl-line-mode)
 
-
 ;; LLMs
 
 (use-package gptel
@@ -228,7 +227,6 @@
                    :stream t
                    :models '(llama3.2:latest))))
 
-
 ;; Constant Improvement
 
 (use-package speed-type
@@ -238,3 +236,8 @@
 
 (when (file-readable-p "local-after.el")
   (ignore-errors (load-file "local-after.el")))
+
+;; Load Custom File
+
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(load custom-file 'noerror)
